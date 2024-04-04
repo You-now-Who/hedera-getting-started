@@ -9,8 +9,9 @@
 🏁 Let's go! 🎉🎉🎉
 
 ## Hello World Sequences
- 
+
 There are multiple Hello World sequences for you to follow along.
+
 
 To start, you **must** do the first sequence,
 as you will need a **funded account** to do any other tasks on Hedera.
