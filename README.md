@@ -1,4 +1,4 @@
-# Ħello World, Ħello Future
+# 404's version of Hedera Hello World
 
 ❓ So you want to develop on [Hedera](https://hedera.com/).
 
