@@ -23,13 +23,13 @@ async function main() {
 
     // Read file from disk
     const localFileContents = await fs.readFile(
-        './my-file.txt', { encoding: 'utf8' });
+        './pizza.txt', { encoding: 'utf8' });
 
     // Write file onto Hedera Testnet, using HFS FileCreateTransaction
     const fileCreateTx = new FileCreateTransaction()
         // NOTE: File create transaction
         // Step (1) in the accompanying tutorial
-        /* ... */
+        .setContents(localFileContents.toString())
         .freezeWith(client);
     const fileCreateTxSigned = await fileCreateTx.sign(accountKey);
     const fileCreateTxSubmitted = await fileCreateTxSigned.execute(client);
@@ -41,7 +41,7 @@ async function main() {
     const fileReadQuery = new FileContentsQuery()
         // NOTE: File contents query
         // Step (2) in the accompanying tutorial
-        /* ... */;
+        .setFileId(fileId);
     const networkFileContents = await fileReadQuery.execute(client);
 
     // Output results
