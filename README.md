@@ -23,8 +23,3 @@ Subsequently, you can do the remaining sequences in any order.
 - [HTS: Fungible token with SDK](./04-hts-ft-sdk/)
 - [HTS: Non-fungible token with SDK](./05-hts-nft-sdk/)
 
-## Next
-
-Ok now what?
-
-👉 [docs.hedera.com/hedera/tutorials](https://docs.hedera.com/hedera/tutorials) 👈
